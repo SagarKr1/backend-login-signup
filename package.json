@@ -1,0 +1,19 @@
+{
+  "name": "login-signup",
+  "version": "1.0.0",
+  "description": "complete backend login signup",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "sagar kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.2"
+  }
+}

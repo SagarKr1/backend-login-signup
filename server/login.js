@@ -19,7 +19,7 @@ router.post('/',async (req,res)=>{
         if(find!=null){
             const pass = bcrypt.compareSync(data.password, find.password);
             if(pass==true){
-                return res.status(200).send("Login successfully");
+                return res.status(200).send(find);
             }else{
                 return res.status(404).send('email or password is wrong');
             }
